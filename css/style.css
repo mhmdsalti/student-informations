@@ -1,0 +1,106 @@
+* {
+
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* color: #eee; */
+}
+
+
+
+body {
+
+    background-image: url("../img/thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+color: #eee;
+font-weight: bold;
+    background-color: rgba(96, 96, 96,0.6);
+    
+    border-bottom:1px solid #eee;
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+    }
+
+    
+nav ul {
+
+float: right;
+padding: 20px;
+}
+nav ul li {
+
+padding: 20px;
+    display: inline;
+}
+
+a { 
+    color: #eee;
+}
+
+header h2 {
+
+    text-align: center;
+}
+
+main  { 
+padding-top: 100px;
+margin-left: 100px;
+
+
+/* background-color: rgba(96, 96, 96,0.6); */
+}
+
+/* main form options {
+
+    color :black;
+} */
+/* 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */
+  div {
+    border-radius: 8px;
+    background-color:  rgba(96, 96, 96,0.6);
+    max-width: fit-content;
+max-height: fit-content;
+
+
+    
+  }
+
+  div form label {
+
+    color: #eee;
+  }
+
+  input[type=text], select {
+    width: 300px;
+    
+  }
+  
+  input[type=number] {
+    width: 300px;
+    
+  }
+  input[type=email] {
+    width: 300px;
+    
+  }
+
+  footer {
+color: #eee;
+    text-align: center;
+    margin-top: 590px;
+    font-weight: bold;
+  }
+
+
